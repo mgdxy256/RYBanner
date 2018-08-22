@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta charset="utf-8" >
+        
+        <link rel="stylesheet" type="text/css" href="css/dybanner.css">
+        <title>RYSample</title>
+    </head>
+    <body>
+        <div id="ry-banner"></div>
+        <script type="text/javascript" src="js/dybanner.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                var ryBanner =document.getElementById("ry-banner");
+                RYBanner().register(ryBanner).setInterval(1000).setImageList([{img:'http://pic.90sjimg.com/back_pic/00/00/52/00/4901c7e259661a93e1423c8c62341da8.jpg',url:"https://www.baidu.com"},
+                    {img:'http://www.sofar110.com/home/4/8/qdf6ln/resource/2017/05/17/591c0118588f4.jpg',url:"http://wj.yfcreate.com/rbs"},
+                    {img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534853160606&di=3f3cf931091c7cc9c8c6b0156f237cc0&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F01%2F38%2F35bc409e1b04506764beb7c9dd5a7f39.jpg'}]);
+                    };
+        </script>
+    </body>
+</html>
